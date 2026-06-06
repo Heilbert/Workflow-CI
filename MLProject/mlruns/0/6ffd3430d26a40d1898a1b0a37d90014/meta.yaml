@@ -1,0 +1,15 @@
+artifact_uri: file:///G:/UNSRAT/UNSRAT/Pijak/Project/MSML/Workflow-CI/MLProject/mlruns/0/6ffd3430d26a40d1898a1b0a37d90014/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6ffd3430d26a40d1898a1b0a37d90014
+run_name: caring-snipe-442
+run_uuid: 6ffd3430d26a40d1898a1b0a37d90014
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780772774301
+status: 1
+tags: []
+user_id: hb_1x

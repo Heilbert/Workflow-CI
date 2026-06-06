@@ -1,0 +1,15 @@
+artifact_uri: file:///G:/UNSRAT/UNSRAT/Pijak/Project/MSML/Workflow-CI/MLProject/mlruns/0/d914aecd04e54923b77e8d28a936f187/artifacts
+end_time: 1780772973412
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d914aecd04e54923b77e8d28a936f187
+run_name: clumsy-smelt-231
+run_uuid: d914aecd04e54923b77e8d28a936f187
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780772960753
+status: 4
+tags: []
+user_id: hb_1x

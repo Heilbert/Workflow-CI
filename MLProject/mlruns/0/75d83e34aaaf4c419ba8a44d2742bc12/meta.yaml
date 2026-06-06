@@ -1,0 +1,15 @@
+artifact_uri: file:///G:/UNSRAT/UNSRAT/Pijak/Project/MSML/Workflow-CI/MLProject/mlruns/0/75d83e34aaaf4c419ba8a44d2742bc12/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 75d83e34aaaf4c419ba8a44d2742bc12
+run_name: burly-bee-941
+run_uuid: 75d83e34aaaf4c419ba8a44d2742bc12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780772854648
+status: 1
+tags: []
+user_id: hb_1x

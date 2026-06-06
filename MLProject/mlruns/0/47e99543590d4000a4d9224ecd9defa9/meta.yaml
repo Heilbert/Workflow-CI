@@ -1,0 +1,15 @@
+artifact_uri: file:///G:/UNSRAT/UNSRAT/Pijak/Project/MSML/Workflow-CI/MLProject/mlruns/0/47e99543590d4000a4d9224ecd9defa9/artifacts
+end_time: 1780773094485
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 47e99543590d4000a4d9224ecd9defa9
+run_name: serious-trout-389
+run_uuid: 47e99543590d4000a4d9224ecd9defa9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780773081300
+status: 3
+tags: []
+user_id: hb_1x

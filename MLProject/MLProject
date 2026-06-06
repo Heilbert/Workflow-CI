@@ -1,0 +1,5 @@
+name: diabetes-classification-project
+
+entry_points:
+  main:
+    command: "python modelling.py"

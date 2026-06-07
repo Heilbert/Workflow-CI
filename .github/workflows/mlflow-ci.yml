@@ -14,29 +14,39 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Run actions/checkout@v4
         uses: actions/checkout@v4
 
-      - name: Set up Python 3.12
+      - name: Set up Python 3.12.7
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      - name: Check Env
+        run: |
+          python --version
+          pip --version
+
       - name: Install dependencies
         run: |
-          pip install mlflow==2.19.0 pandas scikit-learn
+          pip install mlflow==2.19.0
+          pip install pandas
+          pip install scikit-learn
 
-      - name: Run MLflow Project
+      - name: Set MLflow Tracking URI
+        run: |
+          echo "MLFLOW_TRACKING_URI=file:./mlruns" >> $GITHUB_ENV
+
+      - name: Run mlflow project
         run: |
           cd MLProject
           mlflow run . --env-manager local
 
-      - name: Commit MLflow artifacts to repository
+      - name: Commit MLflow artifacts to GitHub
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
           git add MLProject/mlruns
-
           git commit -m "Save MLflow artifacts from CI" || echo "No changes to commit"
           git push
